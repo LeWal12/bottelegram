@@ -7,7 +7,7 @@ def welcome(update, context):
 
 
 def main():
-	token = '793256335:AAGDOlaPbGeCOastdaWtuufhIlvrHZjg32s'
+	token = '793256335:AAGDOlaPbGeCOastdaWtuufhIlvrHZjg32s' #test bot
 	updater = Updater(token=token, use_context=True)
 
 	updater.dispatcher.add_handler(CommandHandler('start', welcome))
