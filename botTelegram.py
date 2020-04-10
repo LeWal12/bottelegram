@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler
 
 def welcome(update, context):
-	message = 'Ola, ' + update.message.from_user.first_name + '!'
+	message = 'Ola,  ' + update.message.from_user.first_name + '!'
 	print(message)
 	context.bot.send_message(chat_id=update.effective_chat.id, text=message)
 
